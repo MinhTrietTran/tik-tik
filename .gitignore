@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Test results
+TestResults/

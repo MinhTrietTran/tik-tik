@@ -16,7 +16,7 @@ public class TodoService
         return await _repo.GetByUserIdAsync(userId);
     }
 
-    public async Task CreateAsync(string title, int userId)
+    public async Task<TodoTask> CreateAsync(string title, int userId)
     {
         //1. Validate input
         if (string.IsNullOrWhiteSpace(title))
@@ -33,6 +33,7 @@ public class TodoService
 
         //3. Call repository
         await _repo.AddAsync(task);
+        return task;
     }
 
     public async Task MarkAsDoneAsync(int taskId)
