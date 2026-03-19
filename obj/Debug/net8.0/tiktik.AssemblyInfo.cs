@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tiktik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9919672b4d7430c637fd109286058bb1301daa88")]
 [assembly: System.Reflection.AssemblyProductAttribute("tiktik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tiktik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
